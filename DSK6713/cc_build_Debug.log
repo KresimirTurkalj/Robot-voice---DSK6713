@@ -1,0 +1,15 @@
+------------------------------  LV2.pjt - Debug  ------------------------------
+[c6713dskinit.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"../../LV2/Debug.lkf" "c6713dskinit.c"
+
+[Vectors_poll.asm] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"../../LV2/Debug.lkf" "Vectors_poll.asm"
+
+[main.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "main.c"
+
+[ringmod.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 --mem_model:data=far -@"Debug.lkf" "ringmod.c"
+"ringmod.c", line 215: warning: integer conversion resulted in a change of sign
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.
